@@ -25,15 +25,22 @@ I choose models for training: 'LogisticRegression',
 
 
 ### I. Conclusions on data analysis:
-      1. Before the pandemic, 59.11% were diagnosed with liver cancer than during the pandemic. This is explained by the fact that during the pandemic almost all medical institutions specializing in a subspecialty, their work was suspended or postponed. So, the liver cancer detection rates are lower.
-      2. According to the etiology of liver cancer, NAFLD is more common - 39% of cases of non-alcoholic fatty liver disease, also Liver cancer is more likely to be diagnosed if the patient has cirrhosis and it is considered the underlying disease
+      1. Before the pandemic, 59.11% were diagnosed with liver cancer than during the pandemic. 
+      This is explained by the fact that during the pandemic almost all medical institutions specializing in a subspecialty, their work was suspended or postponed. 
+      So, the liver cancer detection rates are lower.
+      2. According to the etiology of liver cancer, NAFLD is more common - 39% of cases of non-alcoholic fatty liver disease, 
+      also Liver cancer is more likely to be diagnosed if the patient has cirrhosis and it is considered the underlying disease
       3. The youngest age in men with liver cancer is 27 years, the oldest 96 years. In women, the youngest age of liver cancer patients is 41 years old, the oldest is 87 years old. 
-      4. 45% are symptomatically detected with liver cancer, 32% are incidentally detected, and 23% are observed. Those who were observed with other liver diseases, liver cancer was diagnosed more often - 96 cases. 120 times there is accidental detection of liver cancer. 107 cases had symptoms of liver cancer but was not diagnosed 
-      5. During the pandemic, symptomatic detection of liver cancer is lower than before the pandemic. This is because, firstly, other hospitals were closed and people only went to the infectious disease department. Secondly, all symptoms of liver cancer could be attributed to COVID-19 symptoms.  
+      4. 45% are symptomatically detected with liver cancer, 32% are incidentally detected, and 23% are observed. Those who were observed with other liver diseases, 
+      liver cancer was diagnosed more often - 96 cases. 120 times there is accidental detection of liver cancer. 107 cases had symptoms of liver cancer but was not diagnosed 
+      5. During the pandemic, symptomatic detection of liver cancer is lower than before the pandemic. This is because, firstly, 
+      other hospitals were closed and people only went to the infectious disease department. Secondly, all symptoms of liver cancer could be attributed to COVID-19 symptoms.  
      6. Most patients died of liver cancer before the pandemic.
      7. The higher the stage of the disease, the greater the risk of death.
      8. Most patients received supportive care. 
      9.  According to the results of this dataset: The pandemic had a very strong impact on the detection of liver cancer, at that time most people did not receive specialized medical care. All forces were directed to fight COVID-19. 
+
+     
 ### II. Conclusions after data training:
 1. This dataset has 450 rows × 27 columns, which is considered small for analysis. 
 2. Dataset has very many Nan values, which some of them will be deleted or replaced after processing, resulting in data   reduction.
